@@ -16,6 +16,23 @@ body{
 }
 
 
+/*--------------------------------------------colors*/
+
+.nav-color{
+    background-color:#000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FF8C00;
+}
+
+/*--------------------------------------------colors-end*/
+
+
 
 nav.container-fluid{
     padding-right:0;
@@ -32,26 +49,85 @@ nav.container-fluid{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width:30%;
-    height:3em;
     border-radius:50%;
 }
 
-
-
-.nav-color{
-    background-color:#000;
+.navbar-light .navbar-nav .nav-link:hover {
+    font-size:1.2em;
 }
 
-.nav-collapse-color{
-    color:white;
+.hvr-glow:hover {
+    box-shadow: 0 0 8px rgb(100 200 200 / 60%);
 }
-
-.navbar-light .navbar-nav .nav-link {
-    color:#fff;
-}
-
 
 .nav-toggler-space{
     margin:0.5em;
 }
+
+.navbar-nav{
+    text-align:center;
+}
+
+
+@media only screen and (min-width: 320px) {
+    
+    #logo   {
+        width:25%;
+        height:2.5em;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    
+    #logo   {
+        width:20%;
+        height:2.5em;
+    }
+}
+
+@media only screen and (min-width: 475px) {
+    
+    #logo   {
+        width:20%;
+        height:2.5em;
+    }
+}
+
+@media only screen and (min-width: 475px) {
+    
+    #logo   {
+        width:20%;
+        height:2.5em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    #logo   {
+        width:10%;
+        height:2.5em;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    
+    .nav-height{
+        height:5em;
+    }
+
+    #logo   {
+        width:10%;
+        height:3em;
+    }
+
+    .nav-link{
+        margin: 0 15px;
+    }
+}
+
+
+
+
+
+
