@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+.no-gutters {
+margin-right: 0;
+margin-left: 0;
+padding-right: 0;
+padding-left: 0;
+  }
+
+
+body{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+
+
+nav.container-fluid{
+    padding-right:0;
+}
+
+
+
+.navbar-collapse{
+    flex-grow:0;
+}
+
+#logo{
+    background-image:url("/assets/images/lion-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:30%;
+    height:3em;
+    border-radius:50%;
+}
+
+
+
+.nav-color{
+    background-color:#000;
+}
+
+.nav-collapse-color{
+    color:white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#fff;
+}
+
+
+.nav-toggler-space{
+    margin:0.5em;
+}
