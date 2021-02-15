@@ -1,48 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
 .no-gutters {
 margin-right: 0;
 margin-left: 0;
 padding-right: 0;
 padding-left: 0;
-  }
-
-
-body{
-    margin:0;
-    padding:0;
-    border:0;
-}
+    }
 
 
 /*--------------------------------------------colors*/
 
 .nav-color{
     background-color:#000;
-}
+    }
 
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
-}
+    }
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #FF8C00;
-}
+    }
+
+
+.headline-colors{
+    color:rgba(255, 255, 255, 0.4);
+    letter-spacing: 10px;
+    background-color:rgba(255, 255, 255, 0.1)
+    }
 
 /*--------------------------------------------colors-end*/
 
 
 
+
+/*--------------------------------------------navbar*/
+
+.navbar{
+    padding:0;
+    }
+
+
 nav.container-fluid{
     padding-right:0;
-}
+    }
 
 
 
 .navbar-collapse{
     flex-grow:0;
-}
+    }
 
 #logo{
     background-image:url("/assets/images/lion-logo.jpg");
@@ -50,23 +63,39 @@ nav.container-fluid{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:50%;
-}
+    }
 
 .navbar-light .navbar-nav .nav-link:hover {
     font-size:1.2em;
-}
+    }
 
 .hvr-glow:hover {
     box-shadow: 0 0 8px rgb(100 200 200 / 60%);
-}
+    }
 
 .nav-toggler-space{
     margin:0.5em;
-}
+    }
 
 .navbar-nav{
     text-align:center;
-}
+    }
+
+/*--------------------------------------------navbar ends*/
+
+
+
+
+
+
+.image-backgrounds{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+
 
 
 @media only screen and (min-width: 320px) {
@@ -75,15 +104,52 @@ nav.container-fluid{
         width:25%;
         height:2.5em;
     }
+
+    #hero-image{
+    background-image: url("/assets/images/elephant.jpg");
+    height:30em;   
+    }
+
+    #hero-image-text{
+    height: 10em;
+    width: 100%;
+    position: relative;
+    top:5em;
+    }
+
+    
+    #hero-text-size{
+    font-size:4em;
+    text-align:center;
+    }
+
 }
 
 @media only screen and (min-width: 375px) {
-    
+/*-----------------------------------------------------------nav*/
     #logo   {
         width:20%;
         height:2.5em;
     }
+/*-----------------------------------------------------------nav ends*/
+
+/*-----------------------------------------------------------hero-image*/
+    #hero-image{
+    background-image: url("/assets/images/elephant.jpg");
+    height:30em;   
+    }
+
+    #hero-image-text{
+    height: 10em;
+    width: 100%;
+    position: relative;
+    top:5em;
+    }
+
+/*-----------------------------------------------------------hero-image-ends*/
+
 }
+
 
 @media only screen and (min-width: 475px) {
     
@@ -91,43 +157,117 @@ nav.container-fluid{
         width:20%;
         height:2.5em;
     }
-}
 
-@media only screen and (min-width: 475px) {
-    
-    #logo   {
-        width:20%;
-        height:2.5em;
+    #hero-image{
+        background-image: url("/assets/images/elephant.jpg");
+        height:30em;   
     }
 }
 
 @media only screen and (min-width: 768px) {
     
+
     #logo   {
         width:10%;
         height:2.5em;
     }
+
+    #hero-image{
+        background-image: url("/assets/images/elephant.jpg");
+        height:30em;   
+    }
+
+    #hero-image-text{
+    height: 15em;
+    width: 100%;
+    position: relative;
+    top:3em;
+    }
+
+    #hero-text-size{
+    font-size:8em;
+    text-align:center;
+    }
+
+
 }
 
 
 @media only screen and (min-width: 1024px) {
     
     .nav-height{
-        height:5em;
+        height:10em;
     }
 
     #logo   {
         width:10%;
-        height:3em;
+        height:3.5em;
     }
 
     .nav-link{
         margin: 0 15px;
     }
+
+     
+
+    #hero-image{
+        height:40em;   
+    }
+
+    #hero-image-text{
+    height: 15em;
+    width: 100%;
+    position: relative;
+    top:0em;
+    }
+
+    #hero-text-size{
+    font-size:14em;
+    text-align:center;
+    }
+
+
 }
 
 
 
 
+@media only screen and (min-width: 1440px) {
+    /*-----------------------------------------nav*/
+    .nav-height{
+        height:10em;
+    }
+
+    #logo   {
+        width:10%;
+        height:5em;
+    }
+
+    .nav-link{
+    margin: 0 5em;
+    }
+/*---------------------------------------------------nav ends*/
+
+
+
+/*---------------------------------------------------Hero-image*/
+     #hero-image{
+     height:40em;   
+    }
+
+    #hero-image-text{
+    height: 15em;
+    width: 100%;
+    position: relative;
+    top:0em;
+    }
+
+    #hero-text-size{
+    font-size:16em;
+    text-align:center;
+    }
+
+/*---------------------------------------------------Hero-ends*/
+}
 
 
