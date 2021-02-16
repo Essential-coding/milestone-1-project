@@ -81,6 +81,11 @@ nav.container-fluid{
     text-align:center;
     }
 
+a{
+    text-decoration:none;
+    color:rgb(250, 180, 100)
+}
+
 /*--------------------------------------------navbar ends*/
 
 
@@ -95,7 +100,7 @@ nav.container-fluid{
     }
 
 .main-images{
-    border:1px solid blue;
+    border:1px solid rgba(250, 180, 150, 0.1);
 }
 
 
@@ -196,12 +201,37 @@ nav.container-fluid{
     }
 
     #wildlife{
-        background-color:yellow;
+        background-image: url("/assets/images/cat-eyes.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
         height:30em;
+        text-align:center;
+        color:rgb(180, 180, 180);
     }
 
 
-    
+    #message{
+        height:6em;
+        width:60%;
+    }
+
+    #submit{
+        width:15%;
+    }
+
+    .icons i{
+        font-size:3em;
+        
+    }
+
+    .social-icons{
+        margin: 20px 10px;
+    }
+
+    .icons{
+        margin: 0 10px;
+    }
 
 
 
@@ -298,9 +328,14 @@ nav.container-fluid{
 
     
 .view-video{
-    background-color:black;
-    width:25%;
+
+    width:40%;
     height:3em;
+}
+
+.view-video:hover{
+    color:darkorange;
+    font-size:4em;
 }
 
 .read-more{ 
@@ -317,6 +352,8 @@ nav.container-fluid{
     width:50%;
     height:4em;
     float:right;
+    position:relative;
+    top:20em;
 }
 
     
