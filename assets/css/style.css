@@ -182,30 +182,33 @@ nav.container-fluid{
         top:2em;
     }
 
+
+    #foodchain{
+        background-image: url("/assets/images/foodchain.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align:center;
+        height:40em;
+        width:100%;
+        background-color:#000;
+        color:#fff;
+    }
+
+    #wildlife{
+        background-color:yellow;
+        height:30em;
+    }
+
+
     
-.view-video{
-    background-color:black;
-    width:25%;
-    height:3em;
-}
-
-.read-more{
-    background-color:green;
-    width:25%;
-    height:3em;
-    position:relative;
-    top:24em;
-}
 
 
-.main-text{
-    background-color:purple;
-    width:50%;
-    height:4em;
-    float:right;
-    position:relative;
-    top:20em;
-}
+
+
+
+
+
 
 }
 
@@ -315,6 +318,20 @@ nav.container-fluid{
     height:4em;
     float:right;
 }
+
+    
+
+    #foodchain{
+        background-image: url("/assets/images/foodchain.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align:center;
+        height:80em;
+        width:100%;
+        background-color:#000;
+        color:#fff;
+    }
 
 
 }
