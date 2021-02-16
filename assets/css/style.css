@@ -123,6 +123,22 @@ nav.container-fluid{
     text-align:center;
     }
 
+    #fire-gif{
+        background-image: url("/assets/images/fire.gif");
+        height:30em;
+        text-align:-webkit-center;
+    }
+
+    #icon-lion{
+        height: 10em;
+        width:60%;
+        background-image: url("/assets/images/icon-lion.jpg");
+        border-radius:50%;
+        opacity:0.8;
+        position:relative;
+        top:2em;
+    }
+
 }
 
 @media only screen and (min-width: 375px) {
@@ -151,6 +167,12 @@ nav.container-fluid{
 }
 
 
+        #icon-lion{
+        position:relative;
+        top:2em;
+    }
+
+
 @media only screen and (min-width: 475px) {
     
     #logo   {
@@ -164,6 +186,14 @@ nav.container-fluid{
     }
 }
 
+
+    #icon-lion{
+        height:12em;
+        width:50%;
+        position:relative;
+        top:3em;
+    }
+
 @media only screen and (min-width: 768px) {
     
 
@@ -173,7 +203,6 @@ nav.container-fluid{
     }
 
     #hero-image{
-        background-image: url("/assets/images/elephant.jpg");
         height:30em;   
     }
 
@@ -186,7 +215,14 @@ nav.container-fluid{
 
     #hero-text-size{
     font-size:8em;
-    text-align:center;
+    }
+
+
+    #icon-lion{
+        height: 20em;
+        width:50%;
+        position:relative;
+        top:4em;
     }
 
 
@@ -224,6 +260,19 @@ nav.container-fluid{
     #hero-text-size{
     font-size:14em;
     text-align:center;
+    }
+
+    #icon-lion{
+        height: 30em;
+        width:60%;
+        position:relative;
+        top:2em;
+    }
+
+    #fire-gif{
+        background-image: url("/assets/images/fire.gif");
+        height:45em;
+        text-align:-webkit-center;
     }
 
 
@@ -268,6 +317,21 @@ nav.container-fluid{
     }
 
 /*---------------------------------------------------Hero-ends*/
+
+    #icon-lion{
+        height: 40em;
+        width:60%;
+        position:relative;
+        top:2em;
+    }
+
+    #fire-gif{
+        background-image: url("/assets/images/fire.gif");
+        height:50em;
+        text-align:-webkit-center;
+    }
+
+
 }
 
 
