@@ -94,7 +94,50 @@ nav.container-fluid{
     background-size: cover;
     }
 
+.main-images{
+    border:1px solid blue;
+}
 
+
+.animal-images-lion{
+    background-image:url("/assets/images/lion.jpg");
+    width:100%;
+    height:30em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.animal-images-spider{
+    background-image:url("/assets/images/spider.jpg");
+    width:100%;
+    height:30em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.animal-images-snake{ 
+    background-image:url("/assets/images/snake.jpg");
+    width:100%;
+    height:30em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+
+.animal-images-crocodile{ 
+    background-image:url("/assets/images/crocodile.jpg");
+    width:100%;
+    height:30em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
@@ -138,6 +181,31 @@ nav.container-fluid{
         position:relative;
         top:2em;
     }
+
+    
+.view-video{
+    background-color:black;
+    width:25%;
+    height:3em;
+}
+
+.read-more{
+    background-color:green;
+    width:25%;
+    height:3em;
+    position:relative;
+    top:24em;
+}
+
+
+.main-text{
+    background-color:purple;
+    width:50%;
+    height:4em;
+    float:right;
+    position:relative;
+    top:20em;
+}
 
 }
 
@@ -224,6 +292,29 @@ nav.container-fluid{
         position:relative;
         top:4em;
     }
+
+    
+.view-video{
+    background-color:black;
+    width:25%;
+    height:3em;
+}
+
+.read-more{ 
+    background-color:green;
+    width:25%;
+    height:3em;
+    position:relative;
+    top:24em;
+}
+
+
+.main-text{
+    background-color:purple;
+    width:50%;
+    height:4em;
+    float:right;
+}
 
 
 }
