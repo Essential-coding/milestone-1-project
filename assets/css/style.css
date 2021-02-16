@@ -83,7 +83,11 @@ nav.container-fluid{
 
 a{
     text-decoration:none;
-    color:rgb(250, 180, 100)
+    color:rgb(250, 180, 100);
+}
+
+a:hover{
+        color:rgb(250, 180, 100)
 }
 
 /*--------------------------------------------navbar ends*/
@@ -326,34 +330,31 @@ a{
         top:4em;
     }
 
-    
-.view-video{
-
-    width:40%;
-    height:3em;
-}
 
 .view-video:hover{
     color:darkorange;
     font-size:4em;
 }
 
-.read-more{ 
-    background-color:green;
-    width:25%;
-    height:3em;
-    position:relative;
-    top:24em;
+.read-more {
+    background-color: rgba(259,100, 100, 0.2);
+    width: 26%;
+    height: 3em;
+    position: relative;
+    top: 25em;
+    color: #fff;
+    color: white;
 }
 
 
 .main-text{
-    background-color:purple;
-    width:50%;
-    height:4em;
-    float:right;
-    position:relative;
-    top:20em;
+    background-color: rgba(250, 100, 100, 0.2);
+    width: 50%;
+    height: 12em;
+    float: right;
+    position: relative;
+    top: 13em;
+    color: white;
 }
 
     
